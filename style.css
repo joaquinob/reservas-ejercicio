@@ -1,0 +1,38 @@
+header{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+td:first-child {
+    background-color: #f9f9f9;
+}
+.available {
+    background-color: green;
+    color: white;
+}
+.reserved {
+    background-color: red;
+    color: white;
+}
+.hovering {
+    background-color: yellow;
+    color: black;
+}
+.clickable {
+    cursor: pointer;
+}
